@@ -51,10 +51,10 @@
 
      <!-- CAROUSEL -->
     
-     <div class="container mt-3">
+     <div class="container mt-3 align-items-centre">
      <div id="carouselStacked" class="carousel slide">
   <div class="d-flex justify-content-between align-items-center">
-    <h5 class="mb-0">Featured events</h5>
+    <h1 class="mb-0">Featured events</h1>
     <div>
       <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStacked" data-bs-slide="prev">
         <span class="carousel-icon-prev" aria-hidden="true"></span>
@@ -81,6 +81,66 @@
 </div>
 
 <br> <br> <br> <br> <br> <br>
+
+<!-- FILTER SEARCH BAR -->
+
+<div class="container mt-3 mb-5 md:col-5 d-flex align-items-centre gap-5 hstack">
+<label class="form-control form-adorn" >
+  <div class="form-adorn-icon" aria-hidden="true">
+    <svg class="bi" width="16" height="16"><use href="#search" /></svg>
+  </div>
+  <input type="search" class="form-ghost" placeholder="Search...">
+</label>
+
+
+<!-- FILTER BUTTONS -->
+<label class="btn-check btn-solid theme-primary">
+  <input type="checkbox" checked autocomplete="off">
+  All
+</label>
+
+<label class="btn-check btn-solid theme-primary">
+  <input type="checkbox" autocomplete="off">
+  Art
+</label>
+
+<label class="btn-check btn-solid theme-primary">
+  <input type="checkbox" autocomplete="off">
+  Concerts
+</label>
+</div>
+
+<!-- ACCORDIAN - FAQ -->
+<div class="accordion m-10">
+  <details class="accordion-item" name="accordionExample" open>
+    <summary class="accordion-header">
+      Money & Taxes
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      The currency is the Canadian dollar. For denominations under five dollars, Canadians use coins, including the ‘Loonie’ (one-dollar coin) and the ‘Toonie’ (two-dollar coin). Daily currency exchange rates appear in newspapers, online and are posted at banks throughout the city. A harmonized tax (HST) of 13 percent is levied on all goods and services.
+    </div>
+  </details>
+  <details class="accordion-item" name="accordionExample">
+    <summary class="accordion-header">
+      Calls & Area Codes
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      Mississauga is covered by the 905 and 289 area codes. Some areas east and north of Toronto are also covered by this area code. Toronto is covered by the 416 and 647 area codes. Long-distance charges do not apply to calls made within Mississauga or to Toronto, but charges may apply to calls made to the rest of the GTA. 
+    </div>
+  </details>
+  <details class="accordion-item" name="accordionExample">
+    <summary class="accordion-header">
+      More information
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      City of Mississauga Customer Service: 3-1-1
+      Outside City Limits: 905-615-4311 TTY for people who are deaf: 905-896-5151 (calls from a TTY device)
+      Monday to Friday from 7:00 a.m.– 7:00 p.m. EST
+  </details>
+</div>
 
 
 
