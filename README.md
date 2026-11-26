@@ -1,16 +1,26 @@
 # CCT360-template
 CCT Github Template
 
+Theme: Misssissauga events calender and website - showcasing upcoming events and how/where to participate
 
 ## Bootstrap:
 (Homepage)
 Navbar
 Carousel
+Filter bar and filter buttons
+footer
 
 (Details page)
-
+Navbar
+Hero and sidebar
+Dialogue within hero section
+Acordian 
+footer
 
 (Contacts page)
+Navbar
+Form - three fields for first & last name, email then field for selecting topic, textbox, checkbox and submit button
+footer 
 
 
 ## Images / Assets
