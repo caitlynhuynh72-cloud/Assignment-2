@@ -48,6 +48,10 @@
         </form>
     </div>
     </nav>
+
+    <!-- HEADING AND TEXT -->
+     <h1 class="mt-10 text-center"> Event details </h1>
+     <p class="mt-5 text-center"> Find out more about upcoming events </p>
     
     <!-- HERO SECTION - Semantic HTML -->
      <main class="container">
@@ -57,7 +61,22 @@
                 <!-- Recent uppcoming event -->
                 <p> Main headline </p>
                 <p> subtitle </p>
-                <button class="hero-button"> Learn more </button>
+                 <!-- DIALOGUE -->
+                  <button type="button" class="btn-solid theme-primary" data-bs-toggle="dialog" data-bs-target="#exampleDialog">
+                Learn more
+              </button>
+
+              <dialog class="dialog" id="exampleDialog" aria-labelledby="exampleDialogLabel">
+                <div class="dialog-header">
+                  <h1 class="dialog-title" id="exampleDialogLabel">Event name</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+                </div>
+                <div class="dialog-body">
+                  <p>Info about the featured event (Summary, time, etc)</p>
+                </div>
+                <div class="dialog-footer">
+                </div>
+              </dialog>
             </article>
 
             <article class="hero-sidebar">
@@ -74,8 +93,41 @@
 
         <br> <br> <br> 
 
+        <!-- ACCORDIAN - FAQ -->
+         <h2 class="text-center"> FAQ </h2>
+<div class="accordion m-10">
+  <details class="accordion-item" name="accordionExample" open>
+    <summary class="accordion-header">
+      Money & Taxes
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      The currency is the Canadian dollar. For denominations under five dollars, Canadians use coins, including the ‘Loonie’ (one-dollar coin) and the ‘Toonie’ (two-dollar coin). Daily currency exchange rates appear in newspapers, online and are posted at banks throughout the city. A harmonized tax (HST) of 13 percent is levied on all goods and services.
+    </div>
+  </details>
+  <details class="accordion-item" name="accordionExample">
+    <summary class="accordion-header">
+      Calls & Area Codes
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      Mississauga is covered by the 905 and 289 area codes. Some areas east and north of Toronto are also covered by this area code. Toronto is covered by the 416 and 647 area codes. Long-distance charges do not apply to calls made within Mississauga or to Toronto, but charges may apply to calls made to the rest of the GTA. 
+    </div>
+  </details>
+  <details class="accordion-item" name="accordionExample">
+    <summary class="accordion-header">
+      More information
+      <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m2 5 6 6 6-6"/></svg>
+    </summary>
+    <div class="accordion-body">
+      City of Mississauga Customer Service: 3-1-1
+      Outside City Limits: 905-615-4311 TTY for people who are deaf: 905-896-5151 (calls from a TTY device)
+      Monday to Friday from 7:00 a.m.– 7:00 p.m. EST
+  </details>
+</div>
 
+   
 
-    <footer class="Foot text-center"> © City of Mississauga 2019 - 2026 </footer>
+    <footer class="Foot text-center mb-5"> © City of Mississauga 2019 - 2026 </footer>
 </body>
 </html>
